@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Choose once:</h1>
+    <section  id="option-section" class="option-section">
+      
+        <button id="rock" class="btn" >👊</button>
+        <button id="paper"  class="btn">🤚</button>
+        <button id="scisors"  class="btn">✌️</button>
+
+    </section>
+
+    <section id="result" class="result">
+       <p id="resultOfTurn"  class="resultOfTurn">Press  your turn!</p>
+         
+       <div>
+        
+       <p id="yourTurn" class="turns">You:⭕️</p>
+       <p id="computerTurn" class="turns">⭕️<span>:Computer</span></p>
+
+       </div>
+       <div class="scores">
+        <p id="Wins" class="results-of-turns">Wins:0</p>
+        <p id="Losses" class="results-of-turns">Losses:0</p>
+        <p id="Ties" class="results-of-turns">Ties:0</p>
+       </div>
+       <div class="buttons-for-operation">
+        <button  id="resetBtn" class="operations">Reset score</button>
+        <button  id="autoPlayBtn" class="operations">Auto Play</button>
+       </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
